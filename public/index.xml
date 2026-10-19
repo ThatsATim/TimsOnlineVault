@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Homepage on Tim&#39;s online vault</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Homepage on Tim&#39;s online vault</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>http://localhost:1313/subjects/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/subjects/</guid>
+				<description>&lt;div class=&#34;buttons&#34;&gt;&#xA;&lt;a class=&#34;btn btn--primary btn--lg&#34; href=&#34;http://localhost:1313/devops&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;1em&#34; height=&#34;1em&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M17 3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v2h1a1 1 0 0 1 1 1h7v2h-7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1H2v-2h7a1 1 0 0 1 1-1h1v-2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM7 7l4 4l-4 4h2.85l3.28-3.28c.37-.39.37-1.02 0-1.42L9.83 7zm10 6h-3v2h3z&#34;/&gt;&lt;/svg&gt;&lt;span&gt;DevOps&lt;/span&gt;&lt;/a&gt;&#xA;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>1. What is Ansible?</title>
+				<link>http://localhost:1313/devops/whatisansible/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/devops/whatisansible/</guid>
+				<description>&lt;section class=&#34;section&#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;p&gt;Ansible is an open-source automation tool that automates software provisioning, configuration management,&#xA;and application deployment. It uses a simple YAML-based language to define tasks and workflows, and it can be run&#xA;on Linux, macOS, and Windows systems. Ansible is agentless, which means it does not require any software to be installed&#xA;on the remote systems it manages. It is designed to be easy to use and has a large and active community of users and developers.&lt;/p&gt;&#xA;&lt;p&gt;It works by using a declarative language to describe the desired state of the system, and then Ansible uses a series of&#xA;modules to make the necessary changes to bring the system into that state. Ansible uses a master-agent architecture,&#xA;where the control node (known as &amp;ldquo;master&amp;rdquo; in older terms) sends commands to the agents (also known as the managed nodes)&#xA;to perform tasks. Ansible uses SSH to communicate with the managed nodes, and it can also use other protocols such as&#xA;WinRM for Windows systems.&lt;/p&gt;&#xA;&lt;p&gt;Let’s highlight some of Ansible&amp;rsquo;s best-selling features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Agentless: Only SSH and Python are required to be installed on the agent systems.&lt;/li&gt;&#xA;&lt;li&gt;Push: The controller takes the initiative. It connects, runs a small Python program (known as a module) and&#xA;reads the JSON result.&lt;/li&gt;&#xA;&lt;li&gt;Idempotent: A task in a completed state will not be re-executed. Even if ran ten times over. In the output this will&#xA;be shown as a green &amp;ldquo;ok&amp;rdquo; instead of a yellow &amp;ldquo;changed&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s have a quick look at the glossary Ansible uses to be able to understand the terminology used in the documentation.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Control Node – It is the machine on which Ansible is runs. (The controller, Debian13 VM)&lt;/li&gt;&#xA;&lt;li&gt;Managed Node – A machine that Ansible manages. (web1, web2)&lt;/li&gt;&#xA;&lt;li&gt;Inventory – A list of hosts and groups. (inventory/hosts)&lt;/li&gt;&#xA;&lt;li&gt;Module – One unit of work, for example, installing a package. (ansible.builtin.apt)&lt;/li&gt;&#xA;&lt;li&gt;Task – A module with parameters and a name (e.g.: Install nginx)&lt;/li&gt;&#xA;&lt;li&gt;Play – Connects hosts to tasks or roles. (hosts: nginx_servers)&lt;/li&gt;&#xA;&lt;li&gt;Playbook – A file with one more plays (site.yml)&lt;/li&gt;&#xA;&lt;li&gt;Role – Reusable set of tasks, templates, handlers, and defaults. (roles/nginx)&lt;/li&gt;&#xA;&lt;li&gt;Facts – Data about the managed node, such as the operating system, IP address, and other information. (ansible_facts[&amp;lsquo;hostname&amp;rsquo;&amp;rsquo;])&lt;/li&gt;&#xA;&lt;li&gt;Collection – Package with modules and rules from a provider (e.g.: ansible.posix)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;</description>
+			</item>
+	</channel>
+</rss>
