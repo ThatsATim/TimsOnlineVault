@@ -1,0 +1,8 @@
+services:
+  tims-vault:
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    container_name: tims-vault
+    restart: unless-stopped

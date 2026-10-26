@@ -1,6 +1,0 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = "Tim's vault"
-theme= 'liftoff'
-[markup.goldmark.renderer]
-  unsafe = true
