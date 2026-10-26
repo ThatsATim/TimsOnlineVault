@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Homepage on Tim&#39;s vault</title>
-		<link>https://example.org/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content in Homepage on Tim&#39;s vault</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,20 +10,20 @@
 		
 		
 		
-			<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title></title>
-				<link>https://example.org/about-me/</link>
+				<link>http://localhost:1313/about-me/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://example.org/about-me/</guid>
+				<guid>http://localhost:1313/about-me/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title></title>
-				<link>https://example.org/subjects/</link>
+				<link>http://localhost:1313/subjects/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://example.org/subjects/</guid>
-				<description>&lt;div class=&#34;buttons&#34;&gt;&#xA;&lt;a class=&#34;btn btn--primary btn--lg&#34; href=&#34;https://example.org/devops&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;1em&#34; height=&#34;1em&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M17 3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4v2h1a1 1 0 0 1 1 1h7v2h-7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1H2v-2h7a1 1 0 0 1 1-1h1v-2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zM7 7l4 4l-4 4h2.85l3.28-3.28c.37-.39.37-1.02 0-1.42L9.83 7zm10 6h-3v2h3z&#34;/&gt;&lt;/svg&gt;&lt;span&gt;DevOps&lt;/span&gt;&lt;/a&gt;&#xA;&#xA;&lt;/div&gt;</description>
+				<guid>http://localhost:1313/subjects/</guid>
+				<description>&lt;h2 id=&#34;pick-a-subject-and-start-reading&#34;&gt;Pick a subject and start reading!&lt;/h2&gt;&#xA;&lt;h3 id=&#34;not-all-subjects-made-at-the-same-time-i-hope-you-find-what-you-need&#34;&gt;Not all subjects made at the same time, I hope you find what you need.&lt;/h3&gt;&#xA;&lt;div class=&#34;feature-grid&#34;&gt;&#xA;  &#xA;&#xA;&lt;div class=&#34;card card--linked&#34;&gt;&#xA;    &lt;a class=&#34;card__link&#34; href=&#34;http://localhost:1313/&#34; aria-label=&#34;Linux&#34;&gt;&lt;/a&gt;&#xA;    &lt;div class=&#34;card__icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;1em&#34; height=&#34;1em&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M20 19V7H4v12zm0-16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-7 14v-2h5v2zm-3.42-4L5.57 9H8.4l3.3 3.3c.39.39.39 1.03 0 1.42L8.42 17H5.59z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&#xA;  &lt;h3 class=&#34;card__title&#34;&gt;Linux&lt;/h3&gt;&#xA;  &lt;div class=&#34;card__body&#34;&gt;Terminal commands, local and remote.&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;card card--linked&#34;&gt;&#xA;    &lt;a class=&#34;card__link&#34; href=&#34;http://localhost:1313/devops&#34; aria-label=&#34;DevOps&#34;&gt;&lt;/a&gt;&#xA;    &lt;div class=&#34;card__icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;1em&#34; height=&#34;1em&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M15 20a1 1 0 0 0-1-1h-1v-2h4a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4v2h-1a1 1 0 0 0-1 1H2v2h7a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1h7v-2zm-8-5V5h10v10zm1-8.11l3.56 3.56L8 14h2.53l2.92-2.92c.33-.34.33-.9 0-1.26L10.5 6.89zm8 5.33h-2.67V14H16z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&#xA;  &lt;h3 class=&#34;card__title&#34;&gt;DevOps&lt;/h3&gt;&#xA;  &lt;div class=&#34;card__body&#34;&gt;Use Linux to build and maintain infrastructure.&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;card card--linked&#34;&gt;&#xA;    &lt;a class=&#34;card__link&#34; href=&#34;http://localhost:1313/&#34; aria-label=&#34;Networking&#34;&gt;&lt;/a&gt;&#xA;    &lt;div class=&#34;card__icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;1em&#34; height=&#34;1em&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M13 13v2h1c.6 0 1 .4 1 1h7v2h-7c0 .6-.4 1-1 1h-4c-.6 0-1-.4-1-1H2v-2h7c0-.6.4-1 1-1h1v-2H3.2c-.7 0-1.2-.7-1.2-1.6V6.6C2 5.7 2.5 5 3.2 5h17.6c.7 0 1.2.7 1.2 1.6v4.8c0 .9-.5 1.6-1.2 1.6zm-4-3V8h1v2zM5 8h2v2H5zm15-1H4v4h16z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&#xA;  &lt;h3 class=&#34;card__title&#34;&gt;Networking&lt;/h3&gt;&#xA;  &lt;div class=&#34;card__body&#34;&gt;General computer networking, with a practical spin using Cisco as examples.&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;</description>
 			</item>
 	</channel>
 </rss>

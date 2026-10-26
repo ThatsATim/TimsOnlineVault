@@ -1,14 +1,14 @@
 <!DOCTYPE html><html lang="en" dir="ltr" data-theme="dark">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <title> | Tim&#39;s vault</title>
-<link rel="canonical" href="https://example.org/devops/">
-<link rel="alternate" hreflang="en" href="https://example.org/devops/"><meta property="og:type" content="website">
+<link rel="canonical" href="http://localhost:1313/devops/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/devops/"><meta property="og:type" content="website">
 <meta property="og:title" content=" | Tim&#39;s vault">
-<meta property="og:url" content="https://example.org/devops/">
+<meta property="og:url" content="http://localhost:1313/devops/">
 <meta property="og:site_name" content="Tim&#39;s vault">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -16,10 +16,10 @@
 
 <link rel="alternate" type="application/rss&#43;xml" href="/devops/index.xml" title="Tim&#39;s vault">
   <link rel="stylesheet" href="/css/fonts.min.4c1fa68d0ca8d13b2c7f7b7f4911c01c66ba9f0d1a4f7b192dd58965ac072907.css" integrity="sha256-TB&#43;mjQyo0Tssf3t/SRHAHGa6nw0aT3sZLdWJZawHKQc=" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/main.0b97b73e06c2c24f0cf9db33a99ee9dfd640ccc5c6b5c4d6ae6a97122575ac2d.css" integrity="sha256-C5e3PgbCwk8M&#43;dszqZ7p39ZAzMXGtcTWrmqXEiV1rC0=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/main.css">
 
 
-        <script src="/js/main.8624fbd09e3efbc73b1071a4b46135f09370e07a13094f17792988ac37bee977.js" integrity="sha256-hiT70J4&#43;&#43;8c7EHGktGE18JNw4HoTCU8XeSmIrDe&#43;6Xc=" crossorigin="anonymous" defer></script>
+      <script src="/js/main.js" defer></script>
 
 
 </head>
@@ -74,26 +74,9 @@
   <section class="section">
     <div class="container">
         <h1></h1>
-      <section class="section">
-  <div class="container">
-    <p>For now all that is here is the adapted documentation provided by our teacher.<br>
-This is my own adaptation and not a reflection of the source material.<br>
-I hope you find it useful.</p>
+      <h2 id="devops-topics-list">DevOps topics list</h2>
+<h3 id="this-is-empty-for-now">This is empty for now</h3>
 
-  </div>
-</section>
-
-
-        <div class="grid grid-3">
-            <a class="card card--linked" href="/devops/whatisansible/">
-              <h3 class="card__title">1. What is Ansible?</h3>
-              <p class="card__body"> Ansible is an open-source automation tool that automates software provisioning, configuration management, and application deployment. It uses a simple YAML-based language to define tasks and workflows, and it can be run on Linux, macOS, and Windows systems. Ansible is agentless, which means it does not require any software to be installed on the remote systems it manages. It is designed to be easy to use and has a large and active community of users and developers.
-It works by using a declarative language to describe the desired state of the system, and then Ansible uses a series of modules to make the necessary changes to bring the system into that state. Ansible uses a master-agent architecture, where the control node (known as &ldquo;master&rdquo; in older terms) sends commands to the agents (also known as the managed nodes) to perform tasks. Ansible uses SSH to communicate with the managed nodes, and it can also use other protocols such as WinRM for Windows systems.
-Let’s highlight some of Ansible&rsquo;s best-selling features:
-Agentless: Only SSH and Python are required to be installed on the agent systems. Push: The controller takes the initiative. It connects, runs a small Python program (known as a module) and reads the JSON result. Idempotent: A task in a completed state will not be re-executed. Even if ran ten times over. In the output this will be shown as a green &ldquo;ok&rdquo; instead of a yellow &ldquo;changed&rdquo; Let&rsquo;s have a quick look at the glossary Ansible uses to be able to understand the terminology used in the documentation.
-Control Node – It is the machine on which Ansible is runs. (The controller, Debian13 VM) Managed Node – A machine that Ansible manages. (web1, web2) Inventory – A list of hosts and groups. (inventory/hosts) Module – One unit of work, for example, installing a package. (ansible.builtin.apt) Task – A module with parameters and a name (e.g.: Install nginx) Play – Connects hosts to tasks or roles. (hosts: nginx_servers) Playbook – A file with one more plays (site.yml) Role – Reusable set of tasks, templates, handlers, and defaults. (roles/nginx) Facts – Data about the managed node, such as the operating system, IP address, and other information. (ansible_facts[&lsquo;hostname&rsquo;&rsquo;]) Collection – Package with modules and rules from a provider (e.g.: ansible.posix) </p>
-            </a>
-        </div>
     </div>
   </section>
 
