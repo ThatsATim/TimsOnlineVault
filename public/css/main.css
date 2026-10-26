@@ -1,4 +1,4 @@
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/tokens.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/tokens.css */
 :root {
   --color-bg: #0b1020;
   --color-bg-surface: #131933;
@@ -111,7 +111,7 @@
   color-scheme: light;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/accents.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/accents.css */
 [data-accent=ember] {
   --color-accent: #f97316;
   --color-accent-strong: #fb923c;
@@ -177,7 +177,7 @@
   --shadow-glow: 0 0 24px rgba(71, 85, 105, 0.15);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/base.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/base.css */
 *,
 *::before,
 *::after {
@@ -484,7 +484,7 @@ th {
   top: var(--space-4);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/syntax.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/syntax.css */
 .bg {
   color: #e6edf3;
   background-color: #0d1117;
@@ -767,7 +767,7 @@ th {
   color: #6e7681;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/layout.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/layout.css */
 .container {
   width: 100%;
   max-width: var(--container-max);
@@ -839,7 +839,7 @@ th {
   text-align: center;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/header.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/header.css */
 .site-header {
   position: sticky;
   top: 0;
@@ -1113,7 +1113,7 @@ th {
   }
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/footer.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/footer.css */
 .site-footer {
   border-top: 1px solid var(--color-border);
   background-color: var(--color-bg-inset);
@@ -1225,7 +1225,7 @@ th {
   text-decoration: none;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/button.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/button.css */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -1298,7 +1298,7 @@ th {
   margin-block: var(--space-5);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/codeblock.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/codeblock.css */
 .codeblock {
   position: relative;
   background-color: var(--color-code-bg);
@@ -1396,7 +1396,7 @@ th {
   background: transparent;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/tabs.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/tabs.css */
 .tabs {
   background-color: var(--color-bg-surface);
   border: 1px solid var(--color-border);
@@ -1444,7 +1444,7 @@ th {
   border-radius: var(--radius-md);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/cards.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/cards.css */
 .card {
   background-color: var(--color-bg-surface);
   border: 1px solid var(--color-border);
@@ -1573,7 +1573,7 @@ th {
   color: var(--color-danger);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/hero.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/hero.css */
 .hero {
   position: relative;
   overflow: hidden;
@@ -1708,7 +1708,7 @@ th {
   max-width: none;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/pills.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/pills.css */
 .pills {
   list-style: none;
   padding: 0;
@@ -1739,7 +1739,7 @@ th {
   font-size: 1.1em;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/steps.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/steps.css */
 .steps {
   background-color: var(--color-bg-surface);
   border: 1px solid var(--color-border);
@@ -1803,7 +1803,7 @@ th {
   }
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/pricing.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/pricing.css */
 .pricing {
   display: grid;
   gap: var(--space-5);
@@ -1883,7 +1883,7 @@ th {
   margin-top: auto;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/cta.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/cta.css */
 .cta {
   background:
     radial-gradient(
@@ -1996,7 +1996,7 @@ th {
   color: var(--color-text-muted);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/docs.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/docs.css */
 .docs-page {
   padding-block: var(--space-7);
 }
@@ -2205,7 +2205,7 @@ th {
   color: var(--color-danger);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/articles.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/articles.css */
 .article-listing {
   display: grid;
   gap: var(--space-5);
@@ -2285,7 +2285,7 @@ th {
   border-top: 1px solid var(--color-border);
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/pagination.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/pagination.css */
 .pagination {
   display: flex;
   align-items: center;
@@ -2373,7 +2373,7 @@ th {
   font-variant-numeric: tabular-nums;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/blueprints.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/blueprints.css */
 .blueprints {
   padding-block: var(--space-6);
   display: grid;
@@ -2474,7 +2474,7 @@ th {
   display: none;
 }
 
-/* ns-hugo-imp:/home/tim/Documents/code/www/TimsVault/themes/liftoff/assets/css/components/icons.css */
+/* ns-hugo-imp:/home/tim/Documents/code/www/TimsOnlineVault/themes/liftoff/assets/css/components/icons.css */
 .card__icon svg,
 .icon-tile__mark svg,
 .pill svg,
