@@ -1,6 +1,5 @@
 ---
 ---
-{{< cta >}}
 {{< tabs >}}
 {{< tab name="Who am I? "icon="mdi:account-outline" >}}
 As the name of the site would suggest, my name is Tim.
@@ -34,4 +33,3 @@ I had started on a similar project for just myself in Obsidian for just one netw
 This is an extension of that project and a way to share with people that which I have poured quite a lot of time into.
 {{< /tab >}}
 {{< /tabs >}}
-{{< /cta >}}
