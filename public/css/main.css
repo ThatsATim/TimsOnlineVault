@@ -1457,8 +1457,19 @@ th {
 }
 .card--linked {
   display: block;
+  position: relative;
   color: inherit;
   text-decoration: none;
+}
+.card__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+.card__link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }
 .card--linked:hover {
   text-decoration: none;
