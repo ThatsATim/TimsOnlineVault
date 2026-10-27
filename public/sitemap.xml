@@ -4,6 +4,12 @@
   <url>
     <loc>https://example.org/about-me/</loc>
   </url><url>
+    <loc>https://example.org/devops/</loc>
+  </url><url>
+    <loc>https://example.org/linux/</loc>
+  </url><url>
+    <loc>https://example.org/networking/</loc>
+  </url><url>
     <loc>https://example.org/subjects/</loc>
   </url><url>
     <loc>https://example.org/categories/</loc>
