@@ -4,5 +4,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    volumes:
+      - ./certs/origin.pem:/etc/nginx/certs/origin.pem:ro
+      - ./certs/origin-key.pem:/etc/nginx/certs/origin-key.pem:ro
     container_name: tims-vault
     restart: unless-stopped
